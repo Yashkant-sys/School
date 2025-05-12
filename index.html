@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JLN Public School</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      overflow: hidden;
+      color: #00ffea;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200%;
+      height: 200%;
+      background: url("file:///home/yash/Downloads/in-the-context-of-automation-what-is-a-robot-1701839932-3078498337.jpg") no-repeat center center;
+      background-size: cover;
+      animation: moveBg 60s linear infinite;
+      z-index: -1;
+      opacity: 0.2;
+    }
+
+    @keyframes moveBg {
+      0% {
+        transform: translate(0, 0) scale(1.1);
+      }
+      50% {
+        transform: translate(-10%, -10%) scale(1.05);
+      }
+      100% {
+        transform: translate(0, 0) scale(1.1);
+      }
+    }
+
+    .container {
+      text-align: center;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    h1 {
+      font-size: 3em;
+      text-shadow: 2px 2px 8px #00fff2;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      text-shadow: 1px 1px 6px #00ffcc;
+      line-height: 1.5em;
+    }
+
+    .glow-box {
+      display: inline-block;
+      padding: 30px 50px;
+      margin-top: 30px;
+      border: 2px solid #00ffc3;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00ffcc;
+      background-color: rgba(0, 0, 0, 0.4);
+      max-width: 900px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="glow-box">
+      <h1>JLN Public School</h1>
+      <p>Welcome to the Future of Learning</p>
+      <p>Powered by Innovation & Robotics</p>
+      <p>
+        JLN Public School is a premier English medium educational institution located in Bhagipur, Etah, committed to delivering holistic education for the 21st century.
+        Our mission is to foster academic excellence, character development, and innovation among our students. We blend traditional learning values with modern technological advancements such as robotics, artificial intelligence, and hands-on STEM activities.
+      </p>
+      <p>
+        Under the visionary leadership of our respected Principal, Mr. Yashkant Pratihar, we strive to nurture young minds to become responsible global citizens.
+        With well-equipped classrooms, a dedicated faculty, modern laboratories, and a focus on moral values, JLN Public School is setting new benchmarks in quality education.
+      </p>
+      <p>
+        We emphasize discipline, creativity, and curiosity while maintaining a safe and inclusive environment. Whether it’s through digital learning, science exhibitions, sports, or cultural activities, every child is encouraged to shine in their own way.
+      </p>
+      <p>
+        📍 Address: Bhagipur, Etah<br>
+        📞 Contact: +91 705552290<br>
+        🎓 Principal: Mr. Yashkant Pratihar
+      </p>
+    </div>
+  </div>
+</body>
+</html>
